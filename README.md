@@ -1,6 +1,18 @@
 # Event Management System
 
-A full-stack MERN CRUD app for managing campus events: create, view, update and delete events with their speaker, venue, date, capacity and registration status.
+**A web app for managing campus events: add, view, edit and delete events with their speaker, venue, date, capacity and registration status.**
+
+Why it exists: a full-stack practice project (MongoDB, Express, React and Node.js, often called MERN).
+
+## How to run
+
+1. Create `backend/.env` with your MongoDB address (see [Getting started](#getting-started)), then `cd backend && npm install && npm run dev`.
+2. In another terminal, `cd frontend && npm install && npm run dev`.
+3. Open the address Vite prints (usually http://localhost:5173).
+
+---
+
+## Technical details
 
 ## Features
 - REST API for events (`/api/events`) with full CRUD
